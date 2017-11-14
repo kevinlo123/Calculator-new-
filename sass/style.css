@@ -12,6 +12,8 @@ body {
   border-right: 1px solid #161E31;
   margin: 0 auto;
   flex-flow: column;
+  position: relative;
+  top: 2rem;
   width: 40%;
   background: #505050;
   font-family: 'Asap' , sans-serif;
@@ -117,5 +119,26 @@ body {
 .last {
   background: #fba01f;
   color: white; }
+
+/*************************************
+******** MEDIA QUERIES ***************/
+@media only screen and (max-width: 1024px) {
+  #container {
+    width: 50%; } }
+@media only screen and (max-width: 768px) {
+  #container {
+    width: 60%; } }
+@media only screen and (max-width: 600px) {
+  #container {
+    width: 70%; } }
+@media only screen and (max-width: 600px) {
+  #container {
+    width: 80%; } }
+@media only screen and (max-width: 414px) {
+  #container {
+    width: 90%; } }
+@media only screen and (max-width: 320px) {
+  #container {
+    width: 95%; } }
 
 /*# sourceMappingURL=style.css.map */
