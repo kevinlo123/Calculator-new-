@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<title>Calculator</title>
+    	<link rel="stylesheet" href="sass/style.css">
+  	</head>
+  	<body>
+		<div id="container">
+			<div class="clear_display_cont">
+				<input id="clear" type="button" value="C"/>					
+				<h2 id="display"></h2>
+			</div>
+			<div class="first_row_numbers_addition">
+				<input class="num" type="button" value="7"/>
+				<input class="num" type="button" value="8"/>
+				<input class="num" type="button" value="9"/>
+				<input class="last" id="add"    type="button" value="+"/>
+			</div>
+			<div class="second_row_numbers_subtraction">
+				<input class="num" type="button" value="4"/>
+				<input class="num" type="button"value="5"/>
+				<input class="num" type="button" value="6"/>
+				<input class="last" id="subtract" type="button" value="-"/>
+			</div>
+			<div class="third_row_numbers_multiplication">
+				<input class="num" type="button" value="1"/>
+				<input class="num" type="button" value="2"/>
+				<input class="num" type="button" value="3"/>
+				<input class="last" id="multiply" type="button" value="*"/>
+			</div>
+			<div class="fourth_row_numbers_division">
+				<input class="num" type="button" value="0"/>			
+				<input class="num"  type="button" value="."/>
+				<input class="last" id="equals" type="button" value="="/>			
+				<input class="last" id="divide" type="button" value="/"/>
+			</div>			
+		</div>
+    	<script type="text/javascript" src="calculator.js"></script>
+	</body>
+</html>

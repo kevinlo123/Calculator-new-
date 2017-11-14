@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+//VARIABLES
+
+$flex: flex;
+$height: 7rem;
+$border: #161E31;
+$orange: #fba01f;
+$white: white;
+$lightgrey: #E0E0E0;
+$darkgrey: #505050;
+
+// MAIN STYLES
+html {
+  font-size: 15px;
+}
+
+body {
+    margin: 0;
+	padding: 0;
+}
+
+#container {
+    display: $flex;
+	border-top: 1px solid $border;
+	border-right: 1px solid $border;
+	margin: 0 auto;
+	flex-flow: column;
+	width: 40%;
+	background: $darkgrey;
+	font-family: 'Asap' , sans-serif;	
+	font-size: 4rem;
+	color: $white;
+	text-align: right;
+}
+
+// BUTTON AND NUMBER DISPLAY STYLES
+.clear_display_cont,
+.first_row_numbers_addition ,
+.second_row_numbers_subtraction , 
+.third_row_numbers_multiplication , 
+.fourth_row_numbers_division {	
+	display: $flex;
+	flex-flow: row;	
+	.num , #equals, #clear, #add , #subtract , #multiply , #divide {
+		width: 25%;
+		height: $height;
+		border-right: none;
+		font-weight: thin;
+		border-top: none;
+		border-left: 1px solid  $border;
+		border-bottom: 1px solid $border;
+		font-size: 2rem;
+		font-family: 'Asap' , sans-serif;
+		outline: none;
+		cursor: pointer;
+		&:hover{
+			opacity: .8;
+		}		
+	}
+	#clear {
+		border-right: 1px solid $border;
+		background:#B8B8B8;	
+		color: $white;		
+	}	
+}
+
+.num{
+	background: $lightgrey;		
+	color: black;	
+}
+
+#display {
+	height: $height;
+	width: 75%;
+	margin: 0;
+}
+
+.last{
+	background: $orange;
+	color: $white;		
+}
+
+
+
+

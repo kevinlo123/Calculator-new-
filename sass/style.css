@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Asap");
+html {
+  font-size: 15px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+#container {
+  display: flex;
+  border-top: 1px solid #161E31;
+  border-right: 1px solid #161E31;
+  margin: 0 auto;
+  flex-flow: column;
+  width: 40%;
+  background: #505050;
+  font-family: 'Asap' , sans-serif;
+  font-size: 4rem;
+  color: white;
+  text-align: right; }
+
+.clear_display_cont,
+.first_row_numbers_addition,
+.second_row_numbers_subtraction,
+.third_row_numbers_multiplication,
+.fourth_row_numbers_division {
+  display: flex;
+  flex-flow: row; }
+  .clear_display_cont .num, .clear_display_cont #equals, .clear_display_cont #clear, .clear_display_cont #add, .clear_display_cont #subtract, .clear_display_cont #multiply, .clear_display_cont #divide,
+  .first_row_numbers_addition .num,
+  .first_row_numbers_addition #equals,
+  .first_row_numbers_addition #clear,
+  .first_row_numbers_addition #add,
+  .first_row_numbers_addition #subtract,
+  .first_row_numbers_addition #multiply,
+  .first_row_numbers_addition #divide,
+  .second_row_numbers_subtraction .num,
+  .second_row_numbers_subtraction #equals,
+  .second_row_numbers_subtraction #clear,
+  .second_row_numbers_subtraction #add,
+  .second_row_numbers_subtraction #subtract,
+  .second_row_numbers_subtraction #multiply,
+  .second_row_numbers_subtraction #divide,
+  .third_row_numbers_multiplication .num,
+  .third_row_numbers_multiplication #equals,
+  .third_row_numbers_multiplication #clear,
+  .third_row_numbers_multiplication #add,
+  .third_row_numbers_multiplication #subtract,
+  .third_row_numbers_multiplication #multiply,
+  .third_row_numbers_multiplication #divide,
+  .fourth_row_numbers_division .num,
+  .fourth_row_numbers_division #equals,
+  .fourth_row_numbers_division #clear,
+  .fourth_row_numbers_division #add,
+  .fourth_row_numbers_division #subtract,
+  .fourth_row_numbers_division #multiply,
+  .fourth_row_numbers_division #divide {
+    width: 25%;
+    height: 7rem;
+    border-right: none;
+    font-weight: thin;
+    border-top: none;
+    border-left: 1px solid #161E31;
+    border-bottom: 1px solid #161E31;
+    font-size: 2rem;
+    font-family: 'Asap' , sans-serif;
+    outline: none;
+    cursor: pointer; }
+    .clear_display_cont .num:hover, .clear_display_cont #equals:hover, .clear_display_cont #clear:hover, .clear_display_cont #add:hover, .clear_display_cont #subtract:hover, .clear_display_cont #multiply:hover, .clear_display_cont #divide:hover,
+    .first_row_numbers_addition .num:hover,
+    .first_row_numbers_addition #equals:hover,
+    .first_row_numbers_addition #clear:hover,
+    .first_row_numbers_addition #add:hover,
+    .first_row_numbers_addition #subtract:hover,
+    .first_row_numbers_addition #multiply:hover,
+    .first_row_numbers_addition #divide:hover,
+    .second_row_numbers_subtraction .num:hover,
+    .second_row_numbers_subtraction #equals:hover,
+    .second_row_numbers_subtraction #clear:hover,
+    .second_row_numbers_subtraction #add:hover,
+    .second_row_numbers_subtraction #subtract:hover,
+    .second_row_numbers_subtraction #multiply:hover,
+    .second_row_numbers_subtraction #divide:hover,
+    .third_row_numbers_multiplication .num:hover,
+    .third_row_numbers_multiplication #equals:hover,
+    .third_row_numbers_multiplication #clear:hover,
+    .third_row_numbers_multiplication #add:hover,
+    .third_row_numbers_multiplication #subtract:hover,
+    .third_row_numbers_multiplication #multiply:hover,
+    .third_row_numbers_multiplication #divide:hover,
+    .fourth_row_numbers_division .num:hover,
+    .fourth_row_numbers_division #equals:hover,
+    .fourth_row_numbers_division #clear:hover,
+    .fourth_row_numbers_division #add:hover,
+    .fourth_row_numbers_division #subtract:hover,
+    .fourth_row_numbers_division #multiply:hover,
+    .fourth_row_numbers_division #divide:hover {
+      opacity: .8; }
+  .clear_display_cont #clear,
+  .first_row_numbers_addition #clear,
+  .second_row_numbers_subtraction #clear,
+  .third_row_numbers_multiplication #clear,
+  .fourth_row_numbers_division #clear {
+    border-right: 1px solid #161E31;
+    background: #B8B8B8;
+    color: white; }
+
+.num {
+  background: #E0E0E0;
+  color: black; }
+
+#display {
+  height: 7rem;
+  width: 75%;
+  margin: 0; }
+
+.last {
+  background: #fba01f;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
