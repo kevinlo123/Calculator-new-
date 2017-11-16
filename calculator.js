@@ -26,12 +26,13 @@ document.addEventListener("DOMContentLoaded" , () => {
     let currentNums = numDisplay.innerHTML;
     let nums = parseFloat(currentNums);
     numDisplay.innerHTML = "";
-    equals.addEventListener("click" , () => {
+    equals.addEventListener("click" , function equalSub(){
       let secondCurrentNums = numDisplay.innerHTML;
       let secondNums = parseFloat(secondCurrentNums);
       let total = nums - secondNums;
       console.log(total);
       numDisplay.innerHTML = total;
+      equals.removeEventListener("click" , equalSub);      
     });
   });
   
@@ -39,12 +40,13 @@ document.addEventListener("DOMContentLoaded" , () => {
     let currentNums = numDisplay.innerHTML;
     let nums = parseFloat(currentNums);
     numDisplay.innerHTML = "";
-    equals.addEventListener("click" , () => {
+    equals.addEventListener("click" , function equalAdd(){
       let secondCurrentNums = numDisplay.innerHTML;
       let secondNums = parseFloat(secondCurrentNums);
       let total = nums + secondNums;
       console.log(total);
       numDisplay.innerHTML = total;
+      equals.removeEventListener("click" , equalAdd);      
     });
   });
   
@@ -52,12 +54,13 @@ document.addEventListener("DOMContentLoaded" , () => {
     let currentNums = numDisplay.innerHTML;
     let nums = parseFloat(currentNums);
     numDisplay.innerHTML = "";
-    equals.addEventListener("click" , () => {
+    equals.addEventListener("click" , function equalDiv(){
       let secondCurrentNums = numDisplay.innerHTML;
       let secondNums = parseFloat(secondCurrentNums);
       let total = nums / secondNums;
       console.log(total);
       numDisplay.innerHTML = total;
+      equals.removeEventListener("click" , equalDiv);      
     });
   });
   
@@ -65,12 +68,13 @@ document.addEventListener("DOMContentLoaded" , () => {
     let currentNums = numDisplay.innerHTML;
     let nums = parseFloat(currentNums);
     numDisplay.innerHTML = "";
-    equals.addEventListener("click" , () => {
+    equals.addEventListener("click" , function equalMult(){
       let secondCurrentNums = numDisplay.innerHTML;
       let secondNums = parseFloat(secondCurrentNums);
       let total = nums * secondNums;
       console.log(total);
       numDisplay.innerHTML = total;
+      equals.removeEventListener("click" , equalMult);
     });
-  }); 
+  });
 });
