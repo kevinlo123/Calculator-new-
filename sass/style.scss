@@ -48,9 +48,8 @@ body {
 		width: 25%;
 		height: $height;
 		border-right: none;
-		font-weight: thin;
 		border-top: none;
-		border-radius: none;
+		border-radius: 0px;
 		border-left: 1px solid  $border;
 		border-bottom: 1px solid $border;
 		font-size: 2rem;

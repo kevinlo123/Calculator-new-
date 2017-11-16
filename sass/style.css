@@ -60,8 +60,8 @@ body {
     width: 25%;
     height: 7rem;
     border-right: none;
-    font-weight: thin;
     border-top: none;
+    border-radius: 0px;
     border-left: 1px solid #161E31;
     border-bottom: 1px solid #161E31;
     font-size: 2rem;
@@ -120,8 +120,8 @@ body {
   background: #fba01f;
   color: white; }
 
-/*************************************
-******** MEDIA QUERIES ***************/
+/***************************************
+********** MEDIA QUERIES ***************/
 @media only screen and (max-width: 1024px) {
   #container {
     width: 50%; } }
@@ -131,7 +131,7 @@ body {
 @media only screen and (max-width: 600px) {
   #container {
     width: 70%; } }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   #container {
     width: 80%; } }
 @media only screen and (max-width: 414px) {
